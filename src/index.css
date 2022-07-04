@@ -5,3 +5,144 @@
   font-size: 16px;
   color: #333;
 }
+/* .navbar ===================== */
+.navbar-container {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #29291e;
+  height: 80px;
+  max-width: 1440px;
+  display: flex;
+}
+.navbar {
+  display: flex;
+  max-width: 1440px;
+  width: 85%;
+  margin: auto;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.main-menu {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+}
+.main-menu a {
+  text-decoration: none;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 50px;
+}
+.main-menu a:hover {
+  color: black;
+  font-weight: 800;
+}
+/* search-container =================== */
+.search-container {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.search-container h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #29291e;
+}
+.search-container h4 {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.search-container input {
+  box-sizing: border-box;
+  margin-top: 55px;
+  width: 680.17px;
+  height: 76.36px;
+  background: #ffffff;
+  border: 1px solid #29291e;
+  padding: 30px;
+  box-shadow: rgba(0, 1, 1, 1) 5px 5px 0px 0px;
+}
+/* main-card =================== */
+.main-card {
+  /* width: 80%; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card h2 {
+  margin-top: 160px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 48px;
+
+  width: 966px;
+  height: 96px;
+
+  color: #29291e;
+}
+.main-card p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  text-align: justify;
+  color: #29291e;
+  width: 1034px;
+  height: 150px;
+}
+.main-card a {
+  margin-top: 45px;
+  display: flex;
+  color: red;
+}
+
+/* main-card-2 =================== */
+.main-card-2 {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.main-card-2 h3 {
+  margin-top: 160px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  width: 500px;
+  height: 51px;
+
+  color: #29291e;
+}
+.main-card-2 p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 167% */
+  text-align: justify;
+  color: #29291e;
+  width: 496px;
+  height: 180px;
+}
+.main-card-2 a {
+  margin-top: 165px;
+  display: flex;
+  color: red;
+}
